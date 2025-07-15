@@ -1,0 +1,740 @@
+/* Homepage*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: rgba(150, 150, 150, 0.182);
+    backdrop-filter: blur(5px);
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 15em;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 6em;
+}
+
+header nav ul a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+header nav ul a:hover{
+    transform: scale(1.2);
+    border-bottom: 3px solid rgb(255, 113, 66);
+
+}
+
+.logo{
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 3px;
+    transition: 0.3s ease;
+
+}
+
+.logo span{
+    color: rgb(255, 113, 66);
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+.left-col{
+    margin-left: 10%;
+}
+
+.left-col h1{
+    font-size: 90px;
+    color: white;
+    line-height: 120px;
+    float: left;
+
+}
+
+.left-col span{
+    color: rgb(255, 113, 66);
+}
+
+.right-col{
+    display: flex;
+    align-items: center;
+    float: right;
+    padding: 15px 40px ;
+    margin-right: 10%;
+    margin-top: 120px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 2em;
+
+}
+
+.right-col a{
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.right-col img{
+    transition: 0.3s ease;
+    max-width: 50px;
+    cursor: pointer;
+
+}
+
+.right-col img:hover{
+    transform: scale(1.1);
+}
+
+.guitar{
+    width: 350px;
+    margin-left: 18em;
+    margin-top: -4em;
+    transition: 0.3s ease;
+
+}
+
+.guitar:hover{
+    transform: scale(1.1);
+}
+
+.eguitar{
+    align-items: center;
+    float: left;
+    padding: 15px 40px ;
+    margin-left: 10%;
+    margin-top: 800px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    width: 50%;
+    text-decoration: none;
+}
+
+.guitarAbout span{
+    color: rgb(255, 113, 66);
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.guitarAbout span:hover{
+    transform: scale(1.1);
+}
+
+.guitarAbout{
+    font-size: 80px;
+    text-decoration: none;
+}
+
+.guitarAboutP{
+    border: 5px rgb(255, 113, 66) dashed;
+    padding: 10px;
+    color: black;
+}
+
+.electric{
+    width: 400px;
+    margin-right: 10%;
+    margin-top: 1000px;
+    transition: 0.3s ease;
+    float: right;
+}
+.electric:hover{
+    transform: scale(1.1);
+}
+
+
+
+/* Products page*/
+
+.fresh{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.fresh-col{
+    margin-left: 10%;
+    width: 50%;
+}
+.fresh-col h1{
+    font-size: 90px;
+    color: white;
+    line-height: 120px;
+    float: left;
+}
+.fresh-col span{
+    color: rgb(255, 113, 66);
+}
+
+.fresh-right {
+    width: 50%;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 2em;
+    padding: 20px;
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    float: right;
+    margin-right: 10%;
+}
+ 
+.slider img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+ 
+.controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: rgb(255, 113, 66);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+ 
+.controls button:hover {
+    background-color: rgb(165, 52, 14);
+    transform: scale(1.1);
+}
+
+.business{
+    width: 100%;
+    position: absolute;
+    top: 110%;
+}
+
+.best-col{
+    margin-left: 10%;
+    
+}
+ 
+.best-col h1{
+    font-size: 70px;
+    color: white;
+    line-height: 90px;
+    float: left;
+}
+.best-col span{
+    color: rgb(255, 113, 66);
+}
+
+.best-products{
+    width: 100%;
+    position: absolute;
+    top: 130%;
+}
+.instruments{
+    margin-left: 10%;
+    top: 160%;
+    width: 25%;
+    border: 2px solid #ccc;
+    background-color: aliceblue;
+    border-radius: 2em;
+    text-align: center;
+    float: left;
+    transition: 0.3s ease;
+}
+
+.instruments:hover{
+    transform: scale(1.1);
+}
+.instruments img{
+    width: 450px;
+    border-radius: 2em;
+    padding: 10px 10px 10px 10px;
+}
+.instruments p{
+    padding: 0px 0px 0px 10px ;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.instruments p span{
+    color:rgb(255, 113, 66);;
+}
+
+.piano{
+    margin-left: 5%;
+    width: 25%;
+    border: 2px solid #ccc;
+    background-color: aliceblue;
+    border-radius: 2em;
+    text-align: center;
+    float: left;
+    transition: 0.3s ease;
+}
+.piano:hover{
+    transform: scale(1.1);
+}
+.piano img{
+    width: 450px;
+    border-radius: 2em;
+    padding: 10px 10px 10px 10px;
+}
+.piano p{
+    padding: 0px 0px 0px 10px ;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.piano p span{
+    color:rgb(255, 113, 66);;
+}
+
+.drums{
+    margin-left: 5%;
+    width: 25%;
+    border: 2px solid #ccc;
+    background-color: aliceblue;
+    border-radius: 2em;
+    text-align: center;
+    float: left;
+    transition: 0.3s ease;
+}
+.drums:hover{
+    transform: scale(1.1);
+}
+.drums img{
+    width: 450px;
+    height: 261px;
+    border-radius: 2em;
+    padding: 10px 10px 10px 10px;
+}
+.drums p{
+    padding: 0px 0px 0px 10px ;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.drums p span{
+    color:rgb(255, 113, 66);;
+}
+
+.buttons{
+    width: 100%;
+    position: absolute;
+    top: 165%;
+    
+}
+
+.view-btn1{
+    margin-left: 15%;
+    width: 12%;
+    border: 2px solid rgb(255, 113, 66);;
+    background-color: rgb(255, 113, 66);
+    border-radius: 2em;
+    color: white;
+    text-align: center;
+    float: left;
+    padding: 15px;
+    transition: 0.3s ease;
+}
+.view-btn1:hover{
+    transform: scale(1.1);
+}
+.view-btn1 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.view-btn2{
+    margin-left: 19%;
+    width: 12%;
+    border: 2px solid rgb(255, 113, 66);;
+    background-color: rgb(255, 113, 66);
+    border-radius: 2em;
+    color: white;
+    text-align: center;
+    float: left;
+    padding: 15px;
+    transition: 0.3s ease;
+}
+.view-btn2:hover{
+    transform: scale(1.1);
+}
+.view-btn2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.view-btn3{
+    margin-left: 18%;
+    width: 12%;
+    border: 2px solid rgb(255, 113, 66);;
+    background-color: rgb(255, 113, 66);
+    border-radius: 2em;
+    color: white;
+    text-align: center;
+    float: left;
+    padding: 15px;
+    transition: 0.3s ease;
+}
+.view-btn3:hover{
+    transform: scale(1.1);
+}
+.view-btn3 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.footer1{
+    width: 100%;
+    position: absolute;
+    top: 180%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color: #6c34e5;
+    
+}
+
+.connect{
+    width: 100%;
+
+    text-align: center;
+}
+.connect img{
+    
+    width: 280px;
+    padding-top: 27px;
+}
+
+.connect p{
+    float: left;
+    margin-left: 10%;
+    color: white;
+    padding-top: 30px;
+    font-weight: bolder;
+}
+
+
+/* Location page*/
+
+.map{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.map-col{
+    margin-left: 10%;
+    width: 50%;
+}
+.map-col h1{
+    font-size: 90px;
+    color: white;
+    line-height: 120px;
+    float: left;
+}
+.map-col span{
+    color: rgb(255, 113, 66);
+}
+
+.map-right {
+    width: 50%;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 2em;
+    padding: 20px;
+    margin-top: 170px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    float: right;
+    margin-right: 10%;
+}
+ 
+.map-right img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 2em;
+}
+
+.map-right p {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    text-decoration: none;
+    background-color: rgb(255, 113, 66);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 2em;
+    transition: 0.3s ease;
+    
+}
+ 
+.map-right p:hover {
+    background-color: rgb(165, 52, 14);
+    transform: scale(1.1);
+}
+
+.worldwide{
+    width: 100%;
+    position: absolute;
+    top: 118%;
+    width: 50%;
+}
+
+.worldwide-col{
+    margin-left: 10%;
+    
+}
+ 
+.worldwide-col h1{
+    font-size: 70px;
+    color: white;
+    line-height: 90px;
+    float: left;
+}
+.worldwide-col span{
+    color: rgb(255, 113, 66);
+}
+
+.everywhere{
+    width: 100%;
+    position: absolute;
+    top: 140%;
+    width: 50%;
+    margin-left: 760px;
+    border: 1px solid #ccc;
+    background-color:rgb(255, 113, 66);
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 2em;
+
+}
+
+/* Gallery page*/
+
+.gallery{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
+.gallery-col{
+    margin-left: 10%;
+    width: 50%;
+}
+.gallery-col h1{
+    font-size: 90px;
+    color: white;
+    line-height: 120px;
+    float: left;
+}
+.gallery-col span{
+    color: rgb(255, 113, 66);
+}
+
+.left-col-img{
+    float: left;
+    width: 45%;
+    margin-top: 550px;
+}
+
+.right-col-img{
+    float: right;
+    width: 45%;
+    margin-top: 550px;
+}
+
+.gal-1{
+    width: 700px;
+    height: 500px;
+    border: 2px solid #ccc;
+    border-radius: 2em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 100px;
+}
+
+.gal-2{
+    width: 700px;
+    height: 500px;
+    border: 2px solid #ccc;
+    border-radius: 2em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 100px;
+}
+
+.gal-3{
+    width: 700px;
+    height: 500px;
+    border: 2px solid #ccc;
+    border-radius: 2em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 100px;
+}
+
+.gal-4{
+    width: 700px;
+    height: 500px;
+    border: 2px solid #ccc;
+    border-radius: 2em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 100px;
+}
+
+.gal-5{
+    width: 700px;
+    height: 500px;
+    border: 2px solid #ccc;
+    border-radius: 2em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 100px;
+}
+
+.gal-6{
+    width: 700px;
+    height: 500px;
+    border: 2px solid #ccc;
+    border-radius: 2em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 100px;
+}
+
+/* About us page*/
+
+.info{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
+.info-col{
+    margin-left: 10%;
+    width: 50%;
+}
+.info-col h1{
+    font-size: 90px;
+    color: white;
+    line-height: 120px;
+    float: left;
+}
+.info-col span{
+    color: rgb(255, 113, 66);
+}
+
+.info-about{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}
+.info-p{
+    margin-left: 10%;
+    width: 70%;
+    border: 1px solid #ccc;
+    background-color:rgb(255, 113, 66);
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 2em;    
+}
+
+/* Instruments 1 page*/
+
+.instrument-1{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
+.instrument-1-col{
+    margin-left: 10%;
+    
+}
+.instrument-1-col h1{
+    font-size: 85px;
+    color: white;
+    line-height: 120px;
+    float: left;
+}
+.instrument-1-col span{
+    color: rgb(255, 113, 66);
+}
+
+.instrument-1-col img{
+    width: 700px;
+    height: auto;
+    float: right;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 2em;
+    margin-right: 150px;
+    transition: 0.3s ease;
+}
+
+.instrument-1-col img:hover {
+    transform: scale(1.1);
+}
+
+.instruments-1-p{
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    margin-left: 150px;
+    border: 1px solid #ccc;
+    background-color:rgb(255, 113, 66);
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 2em;
+
+}
+
+.included{
+    position: absolute;
+    float: right;
+    top: 70%;
+    width: 40%;
+    margin-left: 1000px;
+    border: 1px solid #ccc;
+    background-color:rgb(255, 113, 66);
+    color: white;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 2em;
+}

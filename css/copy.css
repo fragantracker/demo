@@ -1,0 +1,137 @@
+.layout_wrapper{
+    float: left;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.topBar{
+    width: 100%;
+    background-color: rgb(21, 70, 161);
+    color: white;
+    font-size: smaller;
+    float: left;
+    text-align: center;
+}
+
+.phone{
+    width: 50%;
+    float: left;
+}
+
+.hours{
+    width: 50%;
+    float: right;
+}
+
+.layout_nav{
+    float: left;
+    width: 100%;
+    height: 150px;
+    background: #FDFC47; 
+background: -webkit-linear-gradient(to right, #24feae, #FDFC47);
+background: linear-gradient(to right, #24feae, #FDFC47);
+
+    text-align: center;
+}
+
+.layout_leftBar{
+    float: left;
+    width: 30%;
+    height: 244.2vh;
+    background-color: rgb(120, 246, 16);
+}
+
+.layout_main{
+    float: left;
+    width: 70%;
+    height: auto;
+    background-color: rgb(255, 183, 0);
+}
+
+
+
+.layout_footer{
+    float: left;
+    width: 100%;
+    height: 80px;
+    background-color: darkorange;
+}
+
+ul {
+    float: left;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    padding: 4px 0px;
+    border-bottom: 1px gray solid;
+    width: 100%;
+    background-color: aquamarine;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+a.showItems {
+    background-color: aqua;
+}
+
+a:hover {
+    background-color: thistle;
+    cursor: pointer;
+}
+
+.content {
+    display: none;
+}
+
+.show {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+
+.logo{
+    width: 125px;
+    height: 140px;
+}
+
+.slider {
+    width: 500px;
+    text-align: center;
+    border: 2px solid #ffd500;
+    padding: 20px;
+    background: #c9222b;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+ 
+.slider img {
+    width: 500px;
+    height: 340px;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+ 
+.controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+ 
+.controls button:hover {
+    background-color: #0056b3;
+}
+ 
+
